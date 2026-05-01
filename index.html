@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DeFi Income — Daily Update | May 1, 2026</title>
+  <style>
+    :root {
+      --bg: #0a0e1a;
+      --card: #111827;
+      --border: #1f2937;
+      --accent: #10b981;
+      --accent2: #3b82f6;
+      --text: #f9fafb;
+      --muted: #9ca3af;
+      --red: #ef4444;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #10b981, #3b82f6);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 16px;
+    }
+    .logo-text { font-size: 18px; font-weight: 700; }
+    .logo-sub { font-size: 11px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+    .date-badge {
+      background: var(--border);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+    .update-header {
+      margin-bottom: 28px;
+      border-left: 3px solid var(--accent);
+      padding-left: 16px;
+    }
+    .update-header h1 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .update-header p { color: var(--muted); font-size: 14px; }
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 12px;
+      margin-top: 32px;
+    }
+    .market-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .market-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .market-card .ticker { font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .market-card .price { font-size: 22px; font-weight: 700; margin: 4px 0; }
+    .market-card .change { font-size: 13px; font-weight: 600; }
+    .change.up { color: var(--green); }
+    .change.down { color: var(--red); }
+    .update-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+    .update-card h2 { font-size: 17px; font-weight: 600; margin-bottom: 12px; color: var(--accent); }
+    .update-card p { font-size: 15px; color: #d1d5db; margin-bottom: 12px; }
+    .update-card p:last-child { margin-bottom: 0; }
+    .highlight {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #a7f3d0;
+    }
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+    }
+    .stat-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+    }
+    .stat-box .val { font-size: 24px; font-weight: 700; color: var(--accent); }
+    .stat-box .label { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 48px;
+    }
+    footer a { color: var(--accent2); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">D</div>
+    <div>
+      <div class="logo-text">DeFi Income</div>
+      <div class="logo-sub">Investor Updates</div>
+    </div>
+  </div>
+  <div class="date-badge">May 1, 2026</div>
+</header>
+
+<div class="container">
+
+  <div class="update-header">
+    <h1>Daily Portfolio Update — May 1, 2026</h1>
+    <p>Private investor briefing from the DeFi Income team</p>
+  </div>
+
+  <div class="section-title">Market Snapshot</div>
+  <div class="market-grid">
+    <div class="market-card">
+      <div class="ticker">BTC / USD</div>
+      <div class="price">$78,425</div>
+      <div class="change up">▲ +2.74% (24h)</div>
+    </div>
+    <div class="market-card">
+      <div class="ticker">ETH / USD</div>
+      <div class="price">$2,305</div>
+      <div class="change up">▲ +2.03% (24h)</div>
+    </div>
+    <div class="market-card">
+      <div class="ticker">USDC</div>
+      <div class="price">$1.000</div>
+      <div class="change down">▼ -0.02% (24h)</div>
+    </div>
+  </div>
+
+  <div class="section-title">Today's Update</div>
+  <div class="update-card">
+    <h2>🟢 Portfolio Status: Active &amp; Generating Yield</h2>
+    <p>
+      Markets are showing renewed strength today with Bitcoin pushing above $78K and Ethereum holding firm above $2,300.
+      Our DeFi positions continue generating yield across multiple protocols — no rebalancing was required today.
+    </p>
+    <div class="highlight">
+      💡 Current strategy focus: Stablecoin liquidity pools on Aave v3 + ETH staking via Lido, providing a blended yield of approximately <strong>8–11% APY</strong> on deployed capital.
+    </div>
+    <p>
+      We are monitoring macroeconomic signals closely. The positive crypto market action today is supportive of
+      continued yield generation and NAV appreciation for all investors.
+    </p>
+  </div>
+
+  <div class="section-title">Fund Overview</div>
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="val">~8–11%</div>
+      <div class="label">Blended APY</div>
+    </div>
+    <div class="stat-box">
+      <div class="val">Weekly</div>
+      <div class="label">Dividend Frequency</div>
+    </div>
+    <div class="stat-box">
+      <div class="val">Active</div>
+      <div class="label">Portfolio Status</div>
+    </div>
+    <div class="stat-box">
+      <div class="val">15</div>
+      <div class="label">Active Investors</div>
+    </div>
+  </div>
+
+  <div class="section-title">What's Next</div>
+  <div class="update-card">
+    <h2>📅 Upcoming</h2>
+    <p>
+      Weekly dividends are scheduled as normal. Investors will receive their
+      standard ACH transfers on the next distribution date.
+    </p>
+    <p>
+      We will continue publishing daily updates to this page so all investors
+      have real-time visibility into fund activity — no email attachments needed.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    DeFi Income, Inc. &nbsp;|&nbsp; <a href="mailto:support@defiincome.com">support@defiincome.com</a>
+    &nbsp;|&nbsp; <a href="https://defiincome.com">defiincome.com</a>
+  </p>
+  <p style="margin-top:8px;">
+    This update is for authorized DeFi Income investors only. Not financial advice.
+  </p>
+</footer>
+
+</body>
+</html>
